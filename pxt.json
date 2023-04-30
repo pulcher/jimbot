@@ -1,0 +1,29 @@
+{
+    "name": "JimBot",
+    "description": "",
+    "dependencies": {
+        "circuit-playground": "*",
+        "crickit": "github:adafruit/pxt-crickit#v0.0.32"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.6.8",
+        "tag": "v1.6.8",
+        "commits": "https://github.com/microsoft/pxt-adafruit/commits/d342542ef80c2cee7cc166dd7430fc0ede5d8337",
+        "target": "1.6.8",
+        "pxt": "6.2.6",
+        "targetId": "adafruit"
+    },
+    "supportedTargets": [
+        "adafruit"
+    ],
+    "preferredEditor": "blocksprj"
+}
