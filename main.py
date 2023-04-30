@@ -1,4 +1,4 @@
-def doSquaew():
+def doSquare():
     light.show_ring("""
         yellow yellow yellow yellow yellow yellow yellow yellow yellow yellow
     """)
@@ -8,6 +8,9 @@ def doLine():
         purple purple purple purple purple purple purple purple purple purple
     """)
     control.wait_micros(4000000)
+    crickit.tank(45, 50)
+    control.wait_micros(15000000)
+    crickit.tank(0, 0)
 
 def on_button_a_click():
     global DoRoutine
@@ -25,7 +28,7 @@ def on_forever():
         """)
         control.wait_micros(4000000)
         if input.switch_right():
-            doSquaew()
+            doSquare()
         else:
             doLine()
         DoRoutine = 0
